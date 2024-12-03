@@ -26,14 +26,12 @@ if __name__ == "__main__":
             safe_count += 1
         else:
             row = r.copy()
-            print(row)
             count = len(r)
             for i in range(count):
                 row = r.copy()
                 row.pop(i)
                 is_safe = part_one(row)
                 if is_safe:
-                    print(is_safe)
                     safe_count += 1
                     break
                 
