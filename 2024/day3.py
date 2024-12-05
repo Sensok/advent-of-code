@@ -34,7 +34,6 @@ def part_two(complete_input:str):
 
 if __name__ == "__main__":
     file = open("day3.txt", "r")
-    safe_count = 0
     complete_input = ""
     for r in file:
         complete_input += r
